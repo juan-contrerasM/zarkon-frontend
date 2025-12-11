@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "serve -s dist/zarkon-front -l $PORT",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:zarkon-front": "node dist/zarkon-front/server/server.mjs"
